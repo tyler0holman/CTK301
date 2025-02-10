@@ -1,0 +1,52 @@
+.block1 {
+    background-color: lavender;
+}
+
+h1 {
+    color: white;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color:red;
+    text-decoration: underline;
+}
+
+h2 {
+    color: blue;
+}
+
+.block2 {
+    color: orange;
+    font-weight: bold;
+}
+
+h3 {
+    background-color: yellow;
+}
+
+.block3 {
+    color: red;
+}
+
+h4 {
+    color: yellow;
+    background-color: green;
+    font-weight: bold;
+}
+
+.block4 {
+    background-color: lightgreen;
+}
+
+h5 {
+    color: red;
+}
+
+.block5 {
+    background-color: yellow;
+}
