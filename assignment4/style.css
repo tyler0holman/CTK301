@@ -1,0 +1,51 @@
+body {
+    color: rgb(25, 25, 25);
+    font-family: Helvetica, sans-serif;
+    background-image:url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgbox {
+    border: 20px solid black;
+    background-color: yellow;
+    padding: 8px
+}
+
+ 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+    background-color: transparent;
+}
+
+#contact {
+    color: rgb(70, 70, 70);
+}
+
+a {
+    color: rgb(185, 70, 70);
+}
+
+a:visited {
+    color: rgb(185, 185, 70);
+}
+
+a:hover {
+    color: rgb(70, 185, 70);
+    text-decoration: underline;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
