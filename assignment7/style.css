@@ -1,0 +1,137 @@
+body {
+    background-color: gray;
+}
+
+#wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;
+    border: 4px solid darkblue;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-row: 100px, auto, 75px;
+}
+
+header {
+    grid-column: span 12;
+    grid-row: auto;
+    padding: 10px;
+    border-bottom: 4px solid darkblue;
+    background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+}
+
+header:hover {
+    background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+}
+
+header a {
+    font-family: Helvetica;
+    color: lightblue;
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 200%;
+}
+
+nav {
+    grid-column: span 12;
+    border-bottom: 4px solid darkblue;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0;
+}
+
+nav li a {
+    color: lightblue;
+    display: inline-block;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+    font-family: Helvetica;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: white;
+    background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+}
+
+#sidebar {
+    background-color: lightblue;
+    grid-column: span 4;
+    grid-row: auto;
+    padding: 10px;
+}
+
+#sidebar p {
+    font-family: Georgia;
+    font-weight: bold;
+    text-align: justify;
+}
+
+h2 {
+    color: darkblue;
+    font-family: Helvetica;
+    border-bottom: 4px solid darkblue;
+}
+
+#main {
+    grid-column: span 8;
+    grid-row: auto;
+    padding: 10px;
+}
+
+#main p {
+    font-family: Georgia;
+}
+
+#main a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.float {
+    float: left;
+    object-fit: fill;
+}
+
+#main img {
+    border: 4px solid darkblue;
+    margin: 10px;
+}
+
+.gallitem {
+    grid-column: span 4;
+    grid-row: auto;
+    padding: 10px;
+}
+
+.gallitem p {
+    font-family: Georgia;
+}
+
+.gallitem a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.gallitem img {
+    margin: 10px;
+    margin-right: 10px;
+    max-width: 95%;
+}
+
+footer {
+    grid-column: span 12;
+    border-top: 4px solid darkblue;
+    padding: 10px;
+    background-color: red;
+    display: block;
+}
