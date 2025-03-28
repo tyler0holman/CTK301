@@ -1,0 +1,29 @@
+html {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.a {
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+nav ul li {
+  list-style-type: square;
+  color: white
+}
+
+a {
+  color: #9dd7d7;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
