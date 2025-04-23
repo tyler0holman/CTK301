@@ -1,0 +1,140 @@
+body {
+  background-color: #999999;
+  color: #ffffff;
+  font-family: "Geologica", sans-serif;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  padding: 24px;
+  background-color: #5a5a5a;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  border-radius: 6px;
+}
+
+header {
+  grid-column: span 12;
+  background-color: #444444;
+  padding-left: .5em;
+  padding-right: .5em;
+  margin: 1em;
+  border-radius: 6px;
+}
+
+h1 {
+  background-color: #67A09D;
+  text-align: center;
+  padding: .5em;
+  margin-top:.25em;
+  margin-bottom: .25em;
+  border-radius: 6px;
+}
+
+nav {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: .5em;
+  padding-bottom: .5em;
+}
+
+nav a {
+  float: left;
+  color: #ffffff;
+  text-decoration: none;
+  border: .5em solid #516968;
+  background-color: #516968;
+  text-align: center;
+  border-radius: 6px;
+  transition: background-color .5s, border .5s;
+}
+
+nav a:hover {
+  border: .5em solid #67A09D;
+  background-color: #67A09D;
+}
+
+#content {
+  grid-column: span 12;
+  background-color: #444444;
+  margin: 1em;
+  border-radius: 6px;
+  padding-bottom: 1em;
+}
+
+img {
+  grid-column: span 6;
+  float: left;
+  width: 15%;
+  border: .5em solid #5a5a5a;
+  margin: 1em;
+  margin-top: 1.5em;
+  border-radius: 6px;
+}
+
+#sub {
+  grid-column: span 6;
+  background-color: #5a5a5a;
+  text-align: center;
+  padding: .5em;
+  margin: 1em;
+  border-radius: 6px;
+}
+
+p {
+  margin: 1em;
+}
+
+h3 {
+  clear: left;
+  margin: 1em;
+  margin-bottom: -.5em;
+}
+
+iframe {
+  width: 97.5%;
+  padding: 1em;
+}
+
+#myCarousel {
+  margin-bottom: 24px;
+  padding: 1em;
+  color:#ffffff
+}
+
+#myCarousel .f-carousel__slide {
+  text-align: center;
+  padding: 24px;
+  background: #5a5a5a;
+  border-radius: 6px;
+}
+
+.f-carousel {
+  --f-button-color: #ffffff
+}
+
+footer {
+  grid-column: span 12;
+  background-color: #444444;
+  padding-left: .5em;
+  padding-right: .5em;
+  margin: 1em;
+  border-radius: 6px;
+}
+
+footer a {
+  color: #ffffff;
+  font-size: 2em;
+}
+
+#links {
+  background-color: #67A09D;
+  text-align: center;
+  padding: 1em;
+  margin-top: .25em;
+  margin-bottom: .5em;
+  border-radius: 6px;
+}
